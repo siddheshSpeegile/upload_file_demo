@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      /* Animated indeterminate progress bar */
+/* 0 → 100% width, jumps every 10% */
+@keyframes steppedProgress {
+  0%   { width: 0%; }
+  10%  { width: 10%; }
+  20%  { width: 20%; }
+  30%  { width: 30%; }
+  40%  { width: 40%; }
+  50%  { width: 50%; }
+  60%  { width: 60%; }
+  70%  { width: 70%; }
+  80%  { width: 80%; }
+  90%  { width: 90%; }
+  100% { width: 100%; }
+}
+
+/* Utility class */
+.header-progress-bar {
+  animation: steppedProgress 1.2s linear infinite;
+}
+
+
+    </style>
+    <title>frontend</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+Sale ID,Location (City),Store Name,Product,Size,Color,Price (INR),Quantity Sold,Date,Sales Rep
+31,Trivandrum,Travancore Textiles,Business Formal Shirt,M,Red,2499,6,10/6/2025,Arun Mani
+32,Jodhpur,Marwar Dress Co.,Business Formal Shirt,M,Green,2499,4,10/6/2025,Vijay Kulkarni
+33,Trivandrum,Travancore Textiles,Business Formal Shirt,S,Blue,2499,2,10/8/2025,Vijay Kulkarni
+34,Rajkot,Saurashtra Styles,Casual Cotton Shirt,XL,Blue,1299,5,10/7/2025,Rahul Singh
+35,Trivandrum,Travancore Textiles,Premium Silk Shirt,L,Red,3999,9,10/6/2025,Gita Sharma
+36,Rajkot,Saurashtra Styles,Casual Cotton Shirt,L,Green,1299,4,10/1/2025,Neha Patel
+37,Rajkot,Saurashtra Styles,Printed Rayon Shirt,M,Black,899,11,10/5/2025,Pooja Verma
+38,Rajkot,Saurashtra Styles,Printed Rayon Shirt,L,Green,899,3,10/4/2025,Sameer Khan
+39,Rajkot,Saurashtra Styles,Casual Cotton Shirt,M,White,1299,10,10/4/2025,Vijay Kulkarni
+40,Trivandrum,Travancore Textiles,Business Formal Shirt,M,Grey,2499,11,10/10/2025,Rahul Singh
+41,Guwahati,Assam Attire,Casual Cotton Shirt,M,Black,1299,6,10/3/2025,Rahul Singh
+42,Trivandrum,Travancore Textiles,Casual Cotton Shirt,L,Blue,1299,8,10/9/2025,Neha Patel
+43,Trivandrum,Travancore Textiles,Casual Cotton Shirt,M,Black,1299,3,10/8/2025,Neha Patel
+44,Rajkot,Saurashtra Styles,Business Formal Shirt,S,Blue,2499,10,10/10/2025,Kavya Rao
+45,Trivandrum,Travancore Textiles,Printed Rayon Shirt,XL,Blue,899,10,10/3/2025,Kavya Rao
+46,Jodhpur,Marwar Dress Co.,Casual Cotton Shirt,XL,Black,1299,5,10/7/2025,Gita Sharma
+47,Jabalpur,Mahakoshal Fabrics,Business Formal Shirt,M,Blue,2499,5,10/2/2025,Gita Sharma
+48,Rajkot,Saurashtra Styles,Casual Cotton Shirt,XL,Blue,1299,7,10/2/2025,Arun Mani
+49,Trivandrum,Travancore Textiles,Casual Cotton Shirt,L,White,1299,11,10/9/2025,Gita Sharma
+50,Rajkot,Saurashtra Styles,Printed Rayon Shirt,L,Green,899,11,10/6/2025,Shreya Das
+51,Jodhpur,Marwar Dress Co.,Casual Cotton Shirt,XL,Green,1299,11,10/1/2025,Neha Patel
+52,Mangalore,Coastal Threads,Casual Cotton Shirt,L,Grey,1299,7,10/10/2025,Sameer Khan
+53,Jabalpur,Mahakoshal Fabrics,Premium Silk Shirt,XL,Grey,3999,2,10/10/2025,Shreya Das
+54,Rajkot,Saurashtra Styles,Casual Cotton Shirt,XL,White,1299,10,10/8/2025,Pooja Verma
+55,Trivandrum,Travancore Textiles,Casual Cotton Shirt,XL,Grey,1299,3,10/8/2025,Rahul Singh
+56,Trivandrum,Travancore Textiles,Casual Cotton Shirt,XL,Grey,1299,9,10/11/2025,Gita Sharma
+57,Trivandrum,Travancore Textiles,Casual Cotton Shirt,XL,Grey,1299,3,10/11/2025,Rahul Singh
+58,Rajkot,Saurashtra Styles,Casual Cotton Shirt,XL,White,1299,5,10/12/2025,Kavya Rao
+59,Rajkot,Saurashtra Styles,Business Formal Shirt,S,Blue,2499,7,10/12/2025,Pooja Verma

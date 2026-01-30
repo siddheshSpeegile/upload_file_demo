@@ -1,0 +1,31 @@
+Sale ID,Location (City),Store Name,Product,Size,Color,Price (INR),Quantity Sold,Date,Sales Rep
+1,Trivandrum,Travancore Textiles,Casual Cotton Shirt,L,Red,1299,8,10/9/2025,Pooja Verma
+2,Trivandrum,Travancore Textiles,Casual Cotton Shirt,L,Red,1299,8,10/8/2025,Akash Gupta
+3,Jodhpur,Marwar Dress Co.,Business Formal Shirt,S,Red,2499,7,10/8/2025,Rahul Singh
+4,Jodhpur,Marwar Dress Co.,Casual Cotton Shirt,XL,Red,1299,7,10/6/2025,Gita Sharma
+5,Mangalore,Coastal Threads,Premium Silk Shirt,L,White,3999,10,10/6/2025,Vijay Kulkarni
+6,Rajkot,Saurashtra Styles,Premium Silk Shirt,S,Black,3999,7,10/1/2025,Shreya Das
+7,Mangalore,Coastal Threads,Business Formal Shirt,L,Green,2499,3,10/1/2025,Neha Patel
+8,Jabalpur,Mahakoshal Fabrics,Printed Rayon Shirt,M,Red,899,3,10/3/2025,Gita Sharma
+9,Guwahati,Assam Attire,Casual Cotton Shirt,S,White,1299,6,10/9/2025,Pooja Verma
+10,Rajkot,Saurashtra Styles,Printed Rayon Shirt,XL,White,899,5,10/4/2025,Sameer Khan
+11,Trivandrum,Travancore Textiles,Casual Cotton Shirt,XL,White,1299,3,10/4/2025,Rahul Singh
+12,Rajkot,Saurashtra Styles,Business Formal Shirt,XL,Black,2499,4,10/6/2025,Rahul Singh
+13,Rajkot,Saurashtra Styles,Casual Cotton Shirt,XL,Green,1299,8,10/6/2025,Rahul Singh
+14,Rajkot,Saurashtra Styles,Casual Cotton Shirt,L,Black,1299,9,10/6/2025,Sameer Khan
+15,Guwahati,Assam Attire,Business Formal Shirt,L,Blue,2499,7,10/7/2025,Neha Patel
+16,Trivandrum,Travancore Textiles,Casual Cotton Shirt,XL,White,1299,6,10/2/2025,Shreya Das
+17,Trivandrum,Travancore Textiles,Business Formal Shirt,XL,Blue,2499,2,10/1/2025,Gita Sharma
+18,Trivandrum,Travancore Textiles,Casual Cotton Shirt,XL,Grey,1299,9,10/7/2025,Sameer Khan
+19,Guwahati,Assam Attire,Casual Cotton Shirt,L,Red,1299,4,10/10/2025,Pooja Verma
+20,Jodhpur,Marwar Dress Co.,Business Formal Shirt,XL,Red,2499,7,10/4/2025,Shreya Das
+21,Mangalore,Coastal Threads,Premium Silk Shirt,XL,Black,3999,4,10/8/2025,Pooja Verma
+22,Trivandrum,Travancore Textiles,Casual Cotton Shirt,M,Green,1299,8,10/1/2025,Shreya Das
+23,Trivandrum,Travancore Textiles,Casual Cotton Shirt,M,Blue,1299,8,10/5/2025,Neha Patel
+24,Mangalore,Coastal Threads,Premium Silk Shirt,XL,Green,3999,10,10/10/2025,Vijay Kulkarni
+25,Jabalpur,Mahakoshal Fabrics,Printed Rayon Shirt,S,Black,899,6,10/1/2025,Pooja Verma
+26,Mangalore,Coastal Threads,Premium Silk Shirt,XL,Red,3999,9,10/7/2025,Sameer Khan
+27,Jodhpur,Marwar Dress Co.,Casual Cotton Shirt,M,Green,1299,11,10/9/2025,Shreya Das
+28,Mangalore,Coastal Threads,Printed Rayon Shirt,S,Green,899,11,10/8/2025,Rahul Singh
+29,Jodhpur,Marwar Dress Co.,Business Formal Shirt,S,Red,2499,9,10/1/2025,Akash Gupta
+30,Rajkot,Saurashtra Styles,Business Formal Shirt,XL,Blue,2499,2,10/2/2025,Rahul Singh
