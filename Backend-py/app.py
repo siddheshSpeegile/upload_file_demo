@@ -17,11 +17,20 @@ sys.stdout.flush()
 
 
 
-app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=[
-    "http://localhost:5173",
+#app = Flask(__name__)
+#CORS(app, supports_credentials=True, origins=[
+ #   "http://localhost:5173",
     #"https://upload-file-demo-jyxx.onrender.com",
-    "https://upload-file-frontend.onrender.com"
+  #  "https://upload-file-frontend.onrender.com"
+#])
+
+
+
+app = Flask(__name__)
+# This allows your specific Render frontend to talk to this backend
+CORS(app, supports_credentials=True, origins=[
+    "https://upload-file-frontend.onrender.com",
+    "http://localhost:5173"
 ])
 
 
@@ -428,10 +437,14 @@ def truncate_and_load_sales(df):
 #                    API CODE
 #------------------------------------------------------
 
-@app.route("/upload", methods=["POST"])
-@cross_origin(origins="http://localhost:5173")
+
+@app.route("/upload", methods=["POST", "OPTIONS"])
+@cross_origin(origin='upload-file-frontend.onrender.com', headers=['Content-Type', 'Authorization'])
 
 def upload_file():
+    if request.method == "OPTIONS":
+        return _build_cors_preflight_response()
+        
     print("1")
     if "file" not in request.files:
         return jsonify({"status": False, "message": "No file uploaded!"}), 400
@@ -552,6 +565,13 @@ def upload_file():
         
         return jsonify({"status": True, "message": "File uploaded and processed successfully!"}), 200
 
+    def _build_cors_preflight_response():
+    response = make_response()
+    response.headers.add("Access-Control-Allow-Origin", "https://upload-file-frontend.onrender.com")
+    response.headers.add('Access-Control-Allow-Headers', "*")
+    response.headers.add('Access-Control-Allow-Methods', "*")
+    return response
+    
     except Exception as e:
         logger.error(f"Error: {str(e)}")
         return jsonify({"status": False, "message": f"Server Error: {str(e)}"}), 500
