@@ -134,6 +134,7 @@ function UploadCSV() {
         setMessage("❌ Upload Failed! Check your internet or server logs.");
       }
     }
+   }; 
 
   return (
     <div className="flex flex-col items-center p-6 rounded-md shadow-xl/10 bg-gray-100 min-h-screen">
