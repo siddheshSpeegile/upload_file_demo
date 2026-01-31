@@ -110,15 +110,30 @@ function UploadCSV() {
       setMessage("❌ Unexpected response format!");
       console.error("Unexpected result structure:", result);
     } catch (err) {
-      console.error("Upload error:", err);
       setLoading(false);
       setIsError(true);
-      setMessage("❌ Upload Failed! Check Server.");
-      console.log("❌ Axios Error:", err);
-      console.log("❌ Response:", err.response);
-      console.log("❌ Request:", err.request);
+
+      // Check if the server sent a response (like 400 or 500)
+      if (err.response && err.response.data) {
+        const result = err.response.data;
+        console.log("❌ Server Validation Error:", result);
+
+        // This is the magic part: it populates your table even on error
+        if (result.errorRows) {
+          setErrorRows(result.errorRows);
+          setMessage(result.message || "⚠️ Found row errors!");
+        } else if (result.missingColumns) {
+          setColumnErrors(result.missingColumns);
+          setMessage("⛔ Column mismatch found!");
+        } else {
+          setMessage(`❌ ${result.message || "Server Error"}`);
+        }
+      } else {
+        // This handles actual network crashes or CORS issues
+        console.error("Upload error:", err);
+        setMessage("❌ Upload Failed! Check your internet or server logs.");
+      }
     }
-  };
 
   return (
     <div className="flex flex-col items-center p-6 rounded-md shadow-xl/10 bg-gray-100 min-h-screen">
