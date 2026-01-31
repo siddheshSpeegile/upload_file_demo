@@ -446,7 +446,6 @@ def truncate_and_load_sales(df):
 
 
 @app.route("/upload", methods=["POST", "OPTIONS"])
-@cross_origin(origin='upload-file-frontend.onrender.com', headers=['Content-Type', 'Authorization'])
 
 def upload_file():
     if request.method == "OPTIONS":
