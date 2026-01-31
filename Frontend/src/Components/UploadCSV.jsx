@@ -454,7 +454,7 @@ function UploadCSV() {
     setIsError(false);
 
     try {
-      const res = await axios.post("http://localhost:5500/upload", formData, {
+      const res = await axios.post("https://upload-file-demo-jyxx.onrender.com", formData, {
         headers: { "Content-Type": "multipart/form-data" },
         validateStatus: () => true,
         timeout: 600000, // 10 minutes
