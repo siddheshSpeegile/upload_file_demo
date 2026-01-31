@@ -18,7 +18,10 @@ sys.stdout.flush()
 
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=["http://localhost:5173"])
+CORS(app, supports_credentials=True, origins=[
+    "http://localhost:5173",
+    "https://upload-file-demo-jyxx.onrender.com"
+])
 
 
 # ---------------------------------------
