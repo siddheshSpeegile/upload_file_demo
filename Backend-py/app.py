@@ -375,7 +375,7 @@ def truncate_sales_table():
     cur = conn.cursor()
     try:
         # ✅ CORRECT: No quotes around table name
-        cur.execute('TRUNCATE TABLE "Stagging_Tables".sales_data RESTART IDENTITY CASCADE;')
+        cur.execute('TRUNCATE TABLE "upload_data"."sales_data" RESTART IDENTITY CASCADE;')
         conn.commit()
         logger.info("🧹 sales_data table truncated successfully")
     except Exception as e:
