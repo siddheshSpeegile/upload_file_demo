@@ -449,7 +449,7 @@ def truncate_and_load_sales(df):
 
 def upload_file():
     if request.method == "OPTIONS":
-        return _build_cors_preflight_response()
+        return jsonify({"status": "success"}), 200
         
     print("1")
     if "file" not in request.files:
