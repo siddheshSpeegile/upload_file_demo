@@ -560,7 +560,7 @@ def upload_file():
             if errs:
                 r = row.to_dict()
                 r["error"] = ", ".join(errs)
-                errorRows.append({"rowNumber": row["RowID"], "data": r})
+                errorRows.append({"RowID": row["RowID"], "data": r})
 
         if errorRows:
             return jsonify({"status": False, "message": "Row errors exist", "errorRows": errorRows}), 400
